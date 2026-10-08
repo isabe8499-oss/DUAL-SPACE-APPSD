@@ -38,9 +38,9 @@
     <string name="msg_cloning">Criando o clone e vinculando o Google Play Services…</string>
     <string name="msg_clone_failed">Falha ao criar o clone</string>
     <string name="abi_title">Arquitetura de CPU diferente</string>
-    <string name="abi_need_32">%s is a 32-bit-only app. Install the “Dual Space 32-bit” companion app to clone it.</string>
-    <string name="abi_need_64">%s is a 64-bit-only app. Install the main 64-bit Dual Space app to clone it.</string>
-    <string name="abi_unsupported_short">Needs the other Dual Space (32/64-bit) build</string>
+    <string name="abi_need_32">%s é um aplicativo somente de 32 bits. Instale o aplicativo complementar “Dual Space 32-bit” para cloná-lo.</string>
+    <string name="abi_need_64">%s é um aplicativo somente de 64 bits. Instale o aplicativo principal Dual Space de 64 bits para cloná-lo.</string>
+    <string name="abi_unsupported_short">É necessária a outra versão do Dual Space (32/64 bits)</string>
 
     <!-- Detail -->
     <string name="slot_n">Slot %d</string>
@@ -58,7 +58,7 @@
     <string name="action_lock">Exigir PIN / impressão digital</string>
     <string name="desc_lock">Solicita o bloqueio do aplicativo sempre que este clone for aberto.</string>
     <string name="action_shortcut">Adicionar atalho à tela inicial</string>
-    <string name="msg_shortcut_requested">Shortcut requested. If nothing appears, allow “Home screen shortcuts” for Dual Space in system settings.</string>
+    <string name="msg_shortcut_requested">Atalho solicitado. Se nada aparecer, permita “Atalhos da tela inicial” para o Dual Space nas configurações do sistema.</string>
     <string name="msg_shortcut_unsupported">Your launcher does not support pinned shortcuts.</string>
     <string name="action_clear_data">Limpar dados</string>
     <string name="confirm_clear">Excluir todos os dados deste clone? Você será desconectado dentro dele. O clone continuará existindo.</string>
@@ -81,18 +81,18 @@
     <string name="step_battery_title">Otimização da bateria</string>
     <string name="step_battery_desc">Escolha “Permitir” / “Não otimizar” para que o Android não coloque o Dual Space em suspensão.</string>
     <string name="step_autostart_title">Inicialização automática</string>
-    <string name="step_autostart_desc_xiaomi">In Security → Autostart, turn on the switch next to Dual Space.</string>
-    <string name="step_autostart_desc_vivo">In i Manager → App manager → Autostart manager, enable Dual Space.</string>
-    <string name="step_autostart_desc_oppo">In Phone Manager → Privacy → Startup manager (Auto-launch), enable Dual Space.</string>
+    <string name="step_autostart_desc_xiaomi">Em Segurança → Inicialização automática, ative a opção ao lado do Dual Space.</string>
+    <string name="step_autostart_desc_vivo">Em i Manager → Gerenciador de aplicativos → Gerenciador de inicialização automática, ative o Dual Space.</string>
+    <string name="step_autostart_desc_oppo">Em Gerenciador do telefone → Privacidade → Gerenciador de inicialização (início automático), ative o Dual Space.</string>
     <string name="step_sleeping_title">Aplicativos que nunca entram em suspensão</string>
-    <string name="step_sleeping_desc_samsung">Battery → Background usage limits → “Never sleeping apps” → add Dual Space. Also remove it from “Sleeping” and “Deep sleeping” lists.</string>
+    <string name="step_sleeping_desc_samsung">Bateria → Limites de uso em segundo plano → “Aplicativos que nunca entram em suspensão” → adicione o Dual Space. Remova-o também das listas “Em suspensão” e “Suspensão profunda”.</string>
     <string name="step_popup_title">Pop-ups em segundo plano</string>
-    <string name="step_popup_desc_xiaomi">In the permission page, allow “Display pop-up windows while running in the background” and “Display pop-up window”.</string>
-    <string name="step_popup_desc_vivo">Allow “Background pop-ups” and “Display over other apps” for Dual Space.</string>
+    <string name="step_popup_desc_xiaomi">Na página de permissões, permita “Exibir janelas pop-up durante a execução em segundo plano” e “Exibir janela pop-up”.</string>
+    <string name="step_popup_desc_vivo">Permita “Pop-ups em segundo plano” e “Exibir sobre outros aplicativos” para o Dual Space.</string>
     <string name="step_power_title">Energia em segundo plano</string>
-    <string name="step_power_desc_xiaomi">Battery saver → choose “No restrictions” for Dual Space.</string>
-    <string name="step_power_desc_vivo">Background power consumption → allow high background power for Dual Space.</string>
-    <string name="step_power_desc_oppo">Battery → App battery management → Dual Space → “Allow background activity” / disable “Smart power”.</string>
+    <string name="step_power_desc_xiaomi">Economia de bateria → escolha “Sem restrições” para o Dual Space.</string>
+    <string name="step_power_desc_vivo">Consumo de energia em segundo plano → permita alto consumo em segundo plano para o Dual Space.</string>
+    <string name="step_power_desc_oppo">Bateria → Gerenciamento de bateria dos aplicativos → Dual Space → “Permitir atividade em segundo plano” / desative “Energia inteligente”.</string>
     <string name="step_notif_title">Notificações</string>
     <string name="step_notif_desc">Verifique se as notificações estão ativadas — os aplicativos clonados enviam suas notificações pelo Dual Space.</string>
 
@@ -117,7 +117,7 @@
     <string name="theme_dark">Escuro</string>
     <string name="pref_cat_system">Sistema</string>
     <string name="pref_setup_summary">Executar novamente o guia de bateria / inicialização automática deste celular</string>
-    <string name="pref_gms">Google Play Services in clones</string>
+    <string name="pref_gms">Google Play Services nos clones</string>
     <string name="pref_gms_summary_ok">Vinculado automaticamente em todos os clones — nenhuma ação necessária</string>
     <string name="pref_gms_summary_none">Indisponível: este celular não possui Google Play Services</string>
     <string name="pref_cat_about">Sobre</string>
