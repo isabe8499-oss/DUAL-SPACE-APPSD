@@ -19,7 +19,7 @@ android {
         versionName "1.2.7"
 
         vectorDrawables.useSupportLibrary = true
-        resourceConfigurations += ["en", "in", "zh-rCN"]
+        resourceConfigurations += ["pt-rBR"]
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
