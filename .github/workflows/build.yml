@@ -51,7 +51,7 @@ jobs:
             # No secrets configured: generate a throw-away key so the release APK is still installable.
             keytool -genkeypair -v -keystore keystore/dualspace.jks -alias dualspace \
               -keyalg RSA -keysize 2048 -validity 10000 -storepass dualspace -keypass dualspace \
-              -dname "CN=Dual Space, O=DualSpace, C=ID"
+              -dname "CN=Dual Space, O=DualSpace, C=BR"
             cat > keystore/keystore.properties <<EOF
           storeFile=dualspace.jks
           storeType=PKCS12
